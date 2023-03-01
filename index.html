@@ -1,0 +1,48 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Endless Adventure</title>
+        <link rel="stylesheet" href="css/stylesheet.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="stats">
+                <div id="characterItems">
+                    <div id="characterName" class="grid"><span class="StatName">Name:</span><span id="nameStat"></span></div>
+                    <div id="characterGold" class="grid"><span class="StatName">Gold:</span><span id="goldStat"></span></div>
+                    <div id="characterLvl" class="grid"><span class="StatName">Level:</span><span id="lvlStat"></span></div>
+                    <div id="characterweapon" class="grid"><span class="StatName">Weapon:</span><span id="weaponStat"></span></div>
+                    <div id="characterShield" class="grid"><span class="StatName">Shield:</span><span id="shieldStat"></span></div>
+                    <div id="characterArmor" class="grid"><span class="StatName">Armor:</span><span id="armorStat"></span></div>
+                </div>
+                <div id="characterStats">
+                    <div id="characterHp" class="grid"><span class="StatName">Health:</span><span id="hpStat"></span></div>
+                    <div id="characterDef" class="grid"><span class="StatName">Defence:</span><span id="defStat"></span></div>
+                    <div id="characterTier" class="grid"><span class="StatName">Tier:</span><span id="tierStat"></span></div>
+                </div>
+                <div id="activeResults">
+                    <div id="firstNode">You've done nothing yet...</div>
+                </div>
+            </div>
+            <div id="frame">
+                <div id="current"><p><span id="currentText">You're currently in: </span><span id="location"></span></p></div>
+                <div id="text"></div>
+            </div>
+        </div>
+        <!--Player-->
+        <script src="js/playerStat.js"></script>
+
+        <!--data-->
+        <script src="js/locations.js"></script>
+        <script src="js/narration.js"></script>
+        <script src="js/dialog.js"></script>
+        <script src="js/quests.js"></script>
+
+        <!--Misc-->
+        <script src="js/elementIds.js"></script>
+        <script src="js/arraySmall.js"></script>
+        <script src="js/core.js"></script>
+    </body>
+</html>
