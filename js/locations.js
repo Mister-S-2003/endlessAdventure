@@ -6,4 +6,4 @@ const locations = {
     ]
 }
 
-locHome = locations.hometown
+const locHome = locations.hometown;
