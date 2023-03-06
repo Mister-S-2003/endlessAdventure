@@ -1,17 +1,5 @@
-window.onload = selectName();
+window.onload = setStats();
 
-function selectName() {
-    // let name = prompt("what is your characters name?");
-    // if (name != null) {
-    //     player.basic.name = name;
-    //     charName.innerHTML = player.basic.name;
-    //     setStats()
-    // } else {
-    //     selectName();
-    // }
-
-    setStats();
-}
 
 function setStats() {
     //basics
