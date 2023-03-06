@@ -1,5 +1,7 @@
 window.onload = setStats();
 
+const divCount =  document.querySelectorAll("*[id]")
+console.log(divCount);
 
 function setStats() {
     //basics
