@@ -54,8 +54,9 @@
 }
 
 #frame {
-    height: 85%;
+    height: 82.5%;
     background-color: black;
+    border-bottom: none;
 }
 
 #current, #text {
@@ -73,6 +74,18 @@
     width: 100%;
     height: 95%;
     overflow-y: auto;
+}
+
+#tierF,
+#tierE,
+#tierD,
+#tierC,
+#tierB,
+#tierA,
+#tierS,
+#tierSS,
+#tierSSS {
+    font-size: 20px;
 }
 
 #tierF {
@@ -112,6 +125,18 @@
 #tierSSS {
     color: black;
     text-shadow:  1px 1px 2px lightslategray, -1px -1px 2px lightgray, 0px 0px 2px darkgray;
+}
+
+#bottom {
+    display: flex;
+    width: 100%;
+    height: 2.5%;
+    background-color: rgb(25, 25, 25);
+    padding: 2.5px;
+}
+
+#links {
+    margin-left: 10px;
 }
 
 /* scollbar */

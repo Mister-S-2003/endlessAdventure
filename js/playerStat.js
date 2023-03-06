@@ -12,6 +12,9 @@ let player = {
     stats: {
         hp: 100,
         def: 0,
+        str: 0,
+        dodge: 0,
+        crit: 0,
         tier: "---"
     }
 }

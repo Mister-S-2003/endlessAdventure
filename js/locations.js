@@ -1,8 +1,8 @@
 const locations = {
     hometown: [
-        "hometown - your house",
-        "hometown - the plaza",
-        "hometown - the adventurers guild",
+        "Hometown - Your house",
+        "Hometown - The plaza",
+        "Hometown - The adventurers guild",
     ]
 }
 
