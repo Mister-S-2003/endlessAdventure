@@ -59,19 +59,3 @@ function seeQuests() {
     }
     text.innerHTML += "<br><p><a href=javascript:genText(diaAbigail[2],locHome[2])>Back</a></p>"
 }
-
-function weapons(data) {
-    var health = 100;
-    var options = data || {};
-    this.name = options.name || "Undifined";
-    this.damage = options.damage || 0;
-    this.doDamage = function() {
-        health -= this.damage
-        console.log(health)
-    }
-}
-
-var weapon = new weapons({
-    name:"Wooden blade",
-    damage: 5
-});
