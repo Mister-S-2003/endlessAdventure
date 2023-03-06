@@ -20,4 +20,22 @@ function Creature(data) {
         }
     };
     this.death = function() {};
-}
+};
+
+const dummie = new Creature({
+    name: "Dummie",
+    hp: 10,
+    def: 10,
+    str: 0,
+    dodge: 0,
+    crit: 0,
+})
+
+const slime = new Creature({
+    name: "Slime",
+    hp: 50,
+    def: 5,
+    str: 10,
+    dodge: 0.05,
+    crit: 0.01,
+});

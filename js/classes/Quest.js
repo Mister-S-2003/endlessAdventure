@@ -12,7 +12,7 @@ function Quest(data) {
     this.startQuest = function() {};
     this.getReward = function() {};
     this.trackRedeem = function() {};
-}
+};
 
 //guild quests
 const slimeHunter = new Quest({
@@ -20,30 +20,35 @@ const slimeHunter = new Quest({
     tier: "F", goal: "slay 10 slimes", 
     location: "Hometown - The adventurers guild"
 });
+
 const slimeGatherer1 = new Quest({
     name: "Slime Gatherer 1", 
     tier: "F", 
     goal: "gather 10 slime chunks", 
     location: "Hometown - The adventurers guild"
 });
+
 const slimeGatherer2 = new Quest({
     name: "Slime Gatherer 2", 
     tier: "F", 
     goal: "gather 50 slime chunks", 
     location: "Hometown - The adventurers guild"
 });
+
 const legendarySlime = new Quest({
     name: "Legendary Slime", 
     tier: "F", 
     goal: "slay a Rainbow slime", 
     location: "Hometown - The adventurers guild"
 });
+
 const acidSlime = new Quest({
     name: "Acid Slime", 
     tier: "E", 
     goal: "slay an Acid slime", 
     location: "Hometown - The adventurers guild"
 });
+
 const acidRevenge = new Quest({
     name: "Acid Revenge", 
     tier: "E", 

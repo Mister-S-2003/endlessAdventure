@@ -8,4 +8,4 @@ function Equipment(data) {
     this.use = function() {
         equip(this)
     };
-}
+};

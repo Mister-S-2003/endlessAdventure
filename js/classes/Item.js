@@ -5,4 +5,4 @@ function Item(data) {
     this.sell = data.sell || NaN,
     this.effect = []
     this.use = function() {};
-}
+};
