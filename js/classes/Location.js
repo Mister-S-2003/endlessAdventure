@@ -5,30 +5,26 @@ function Location(data) {
 };
 
 //hometown
-const yourHome = new Location({
-    name: "Hometown - Your house",
-});
-
-const thePlaza = new Location({
-    name: "Hometown - The Plaza",
-});
-
-const theAdventurersGuild = new Location({
-    name: "Hometown - The adventurers guild",
-});
-
-const westForest = new Location({
-    name: "Hometown - Western Forest",
-});
-
-const locations = {
-    hometown: [
-        "Hometown - Your house",
-        "Hometown - The plaza",
-        "Hometown - The adventurers guild",
-        "Hometown - Western Forest",
-        "Hometown - Eastern Mountains",
-        "Hometown - Dock",
-        "Hometown - Beach"
-    ],
+const hometown = {
+    yourHome: new Location({
+        name: "Hometown - Your house",
+    }),
+    thePlaza: new Location({
+        name: "Hometown - The Plaza",
+    }),
+    theAdventurersGuild: new Location({
+        name: "Hometown - The adventurers guild",
+    }),
+    westForest: new Location({
+        name: "Hometown - Western Forest",
+    }),
+    eastMountains: new Location({
+        name: "Hometown - Eastern Mountains",
+    }),
+    dock: new Location({
+        name: "Hometown - Dock"
+    }),
+    beach: new Location({
+        name: "Hometown - Beach"
+    }),
 }

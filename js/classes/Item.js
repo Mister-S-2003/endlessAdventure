@@ -6,3 +6,7 @@ function Item(data) {
     this.effect = []
     this.use = function() {};
 };
+
+const stick = new Item({
+    
+}) 

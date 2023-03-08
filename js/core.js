@@ -18,7 +18,7 @@ function setStats() {
 
 function startGame() {
     text.innerHTML = narHome[0];
-    curLocation.innerHTML = yourHome.name
+    curLocation.innerHTML = hometown.yourHome.name
 }
 
 function setAttributes(className) {
