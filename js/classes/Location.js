@@ -15,12 +15,10 @@ const thePlaza = new Location({
 
 const theAdventurersGuild = new Location({
     name: "Hometown - The adventurers guild",
-    enemies: {
-        dummie,
-    },
-    drop: {
-        woodSplinter,
-    },
+});
+
+const westForest = new Location({
+    name: "Hometown - Western Forest",
 });
 
 const locations = {

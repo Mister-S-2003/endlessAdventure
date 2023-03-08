@@ -6,9 +6,3 @@ function Item(data) {
     this.effect = []
     this.use = function() {};
 };
-
-const woodSplinter = new Item({
-    name: "Wood Splinter",
-    buy: .2,
-    sell: .05,
-})

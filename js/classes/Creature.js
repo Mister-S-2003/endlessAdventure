@@ -21,39 +21,3 @@ function Creature(data) {
     };
     this.death = function() {};
 };
-
-const dummie = new Creature({
-    name: "Dummie",
-    hp: 10,
-    def: 10,
-    str: 0,
-    dodge: 0,
-    crit: 0,
-})
-
-const slime = new Creature({
-    name: "Slime",
-    hp: 50,
-    def: 5,
-    str: 10,
-    dodge: .05,
-    crit: .01,
-});
-
-const rainbowSlime = new Creature({
-    name: "Rainbow Slime",
-    hp: 200,
-    def: 10,
-    str: 20,
-    dodge: .1,
-    crit: .05,
-});
-
-const acidSlime = new Creature({
-    name: "Acid Slime",
-    hp: 300,
-    def: 20,
-    str: 50,
-    dodge: .2,
-    crit: .1,
-})
