@@ -1,10 +1,10 @@
 function Creature(data) {
     this.name = data.name || "undifined",
-    this.hp = data.hp || NaN,
-    this.str = data.str || NaN,
-    this.def = data.def || NaN
-    this.dodge = data.dodge || NaN,
-    this.crit = data.crit || NaN,
+    this.hp = data.hp || 0,
+    this.str = data.str || 0,
+    this.def = data.def || 0
+    this.dodge = data.dodge || 0,
+    this.crit = data.crit || 0,
     this.takeDamage = function() {
         if (this.dodge < Math.random().toFixed(2)) {
             if ((player.stats.str - this.def) <= 0) {} else {
@@ -36,6 +36,24 @@ const slime = new Creature({
     hp: 50,
     def: 5,
     str: 10,
-    dodge: 0.05,
-    crit: 0.01,
+    dodge: .05,
+    crit: .01,
 });
+
+const rainbowSlime = new Creature({
+    name: "Rainbow Slime",
+    hp: 200,
+    def: 10,
+    str: 20,
+    dodge: .1,
+    crit: .05,
+});
+
+const acidSlime = new Creature({
+    name: "Acid Slime",
+    hp: 300,
+    def: 20,
+    str: 50,
+    dodge: .2,
+    crit: .1,
+})

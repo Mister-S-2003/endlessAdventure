@@ -1,8 +1,5 @@
 window.onload = setStats();
 
-const divCount =  document.querySelectorAll("*[id]")
-console.log(divCount);
-
 function setStats() {
     //basics
     charName.innerHTML = player.basic.name;
@@ -21,7 +18,7 @@ function setStats() {
 
 function startGame() {
     text.innerHTML = narHome[0];
-    curLocation.innerHTML = locHome[0]
+    curLocation.innerHTML = yourHome.name
 }
 
 function setAttributes(className) {
@@ -37,15 +34,5 @@ function genText(curText, curLoc) {
 }
 
 function seeQuests() {
-    text.innerHTML = diaAbigail[0]+ "<br><p>List of quests:</p>";
-    for (let i = 0; i < hometownQuest.length; i++) {
-        if (hometownQuest[i].completed != true) {
-            if (hometownQuest[i].unlocked != false) {
-                text.innerHTML += "<p>"+hometownQuest[i].name+" TIER: "+hometownQuest[i].tier+"</p>"
-            }
-        } else {
-            text.innerHTML += "<p style='text-decoration: line-through;'>"+hometownQuest[i].name+" TIER: "+hometownQuest[i].tier+"</p>"
-        }
-    }
-    text.innerHTML += "<br><p><a href=javascript:genText(diaAbigail[2],locHome[2])>Back</a></p>"
+    text.innerHTML = diaAbigail[0];
 }

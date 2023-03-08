@@ -15,43 +15,29 @@ function Quest(data) {
 };
 
 //guild quests
-const slimeHunter = new Quest({
+const slimeHunterQuest = new Quest({
     name: "Slime Hunter", 
     tier: "F", goal: "slay 10 slimes", 
     location: "Hometown - The adventurers guild"
 });
 
-const slimeGatherer1 = new Quest({
-    name: "Slime Gatherer 1", 
+const slimeGathererQuest = new Quest({
+    name: "Slime Gatherer", 
     tier: "F", 
     goal: "gather 10 slime chunks", 
     location: "Hometown - The adventurers guild"
 });
 
-const slimeGatherer2 = new Quest({
-    name: "Slime Gatherer 2", 
-    tier: "F", 
-    goal: "gather 50 slime chunks", 
-    location: "Hometown - The adventurers guild"
-});
-
-const legendarySlime = new Quest({
+const legendarySlimeQuest = new Quest({
     name: "Legendary Slime", 
     tier: "F", 
     goal: "slay a Rainbow slime", 
     location: "Hometown - The adventurers guild"
 });
 
-const acidSlime = new Quest({
+const acidSlimeQuest = new Quest({
     name: "Acid Slime", 
     tier: "E", 
     goal: "slay an Acid slime", 
-    location: "Hometown - The adventurers guild"
-});
-
-const acidRevenge = new Quest({
-    name: "Acid Revenge", 
-    tier: "E", 
-    goal: "slay 5 Acid slimes", 
     location: "Hometown - The adventurers guild"
 });

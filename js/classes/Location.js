@@ -4,6 +4,7 @@ function Location(data) {
     this.dorp = data.drop || [];
 };
 
+//hometown
 const yourHome = new Location({
     name: "Hometown - Your house",
 });
@@ -15,12 +16,12 @@ const thePlaza = new Location({
 const theAdventurersGuild = new Location({
     name: "Hometown - The adventurers guild",
     enemies: {
-        dummie
+        dummie,
     },
     drop: {
-
-    }
-})
+        woodSplinter,
+    },
+});
 
 const locations = {
     hometown: [
